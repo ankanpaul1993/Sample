@@ -3,7 +3,7 @@ import org.junit.Test;
 public class hello {
 
 	@Test
-	public void abc() {
+	public void abc() throws Exception {
 		// TODO Auto-generated method stub
 		
 	System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
@@ -19,6 +19,8 @@ driver.get("http://www.facebook.com");
 driver.manage().window().maximize();
 		
 		System.out.println("Hello");
+		
+Thread.sleep(5000);		
 		
 
 	}
