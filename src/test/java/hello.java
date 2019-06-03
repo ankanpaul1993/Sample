@@ -1,4 +1,5 @@
 import org.junit.Test;
+import org.testng.Assert;
 
 public class hello {
 
@@ -6,9 +7,9 @@ public class hello {
 	public void abc() throws Exception {
 		// TODO Auto-generated method stub
 		
-
+String j="Hello";
 		
-		System.out.println("Hello");
+		Assert.assertEquals("Gello", j);
 		
 Thread.sleep(5000);		
 		
