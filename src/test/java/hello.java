@@ -9,7 +9,7 @@ public class hello {
 		
 String j="Hello";
 		
-		Assert.assertEquals("Gello", j);
+		Assert.assertEquals("Hello", j);
 		
 Thread.sleep(5000);		
 		
@@ -23,7 +23,7 @@ String j="Hello";
 		
 		Assert.assertEquals("Hello", j);
 		
-Thread.sleep(4000);		
+Thread.sleep(3000);		
 		
 
 	}
