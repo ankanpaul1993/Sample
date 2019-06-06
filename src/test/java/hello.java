@@ -23,7 +23,7 @@ String j="Hello";
 		
 		Assert.assertEquals("Hello", j);
 		
-Thread.sleep(3000);		
+Thread.sleep(4000);		
 		
 
 	}
