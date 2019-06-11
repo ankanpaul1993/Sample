@@ -19,9 +19,9 @@ Thread.sleep(5000);
 	public void def() throws Exception {
 		// TODO Auto-generated method stub
 		
-String j="Hello";
+String j="hi";
 		
-		Assert.assertEquals("Hello", j);
+		Assert.assertEquals("bye", j);
 		
 Thread.sleep(4000);		
 		
