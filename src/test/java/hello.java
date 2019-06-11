@@ -1,5 +1,9 @@
 import org.junit.Test;
 import org.testng.Assert;
+//import static io.github.bonigarcia.wdm.DriverManagerType.CHROME;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+//import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class hello {
 
@@ -27,9 +31,4 @@ Thread.sleep(4000);
 		
 
 	}
-	
-	
-	
-	
-
 }
