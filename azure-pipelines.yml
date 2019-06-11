@@ -12,7 +12,7 @@ pool:
 steps:
 - task: Maven@3
   inputs:
-    mavenPomFile: 'pom.xml'
+    mavenPomFile: 'C:/Users/789967/git/Sample/pom.xml'
     mavenOptions: '-Xmx3072m'
     javaHomeOption: 'JDKVersion'
     jdkVersionOption: '1.11'
@@ -20,6 +20,22 @@ steps:
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'package'
+    
+    ############################################
+    
+    #testSelector: 'testAssemblies' # Options: testAssemblies, testPlan, testRun
+    #testAssemblyVer2: |
+     # **\*test*.dll
+      #!**\*TestAdapter.dll
+      #!**\obj\** 
+   # testPlan: # Required when testSelector == TestPlan
+   # testSuite: # Required when testSelector == TestPlan
+    #testConfiguration: # Required when testSelector == TestPlan
+    #tcmTestRun: '$(test.RunId)' # Optional
+    #searchFolder: '$(System.DefaultWorkingDirectory)' 
+    #testFiltercriteria: # Optional
+    
+    
 
 - script: |
     echo Starting the build
