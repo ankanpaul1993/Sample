@@ -25,7 +25,7 @@ Thread.sleep(5000);
 		
 String j="hi";
 		
-		Assert.assertEquals("bye", j);
+		Assert.assertEquals("Hola", j);
 		
 Thread.sleep(4000);		
 		
